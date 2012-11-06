@@ -1,7 +1,7 @@
-def hello	
-  "Hello!"	
+def hello
+  "Hello!"
 end
 
 def greet (who)
-  "Hello, #{who}!"	
+  "Hello, #{who}!"
 end

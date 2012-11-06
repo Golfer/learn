@@ -1,5 +1,5 @@
-def reverser 
- yield.split(' ').map(&:reverse).join(' ')
+def reverser
+  yield.split.map(&:reverse).join(' ')
 end
 
 def adder num = 1
@@ -7,7 +7,7 @@ def adder num = 1
 end
 
 def repeater num = 1
-  num.times do 
-     yield
+  num.times do
+    yield
   end
 end
