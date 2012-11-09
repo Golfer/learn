@@ -1,4 +1,4 @@
-class Fixnum # 1 000 000 000 is too big for Fixnum
+class Fixnum
 
   def in_words
     return 'zero' if self == 0
